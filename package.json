@@ -21,7 +21,8 @@
     "webpack-dev-server": "^2.5.0"
   },
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "format": "eslint ."
   },
   "dependencies": {
     "react": "^15.6.1",

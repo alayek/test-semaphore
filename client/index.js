@@ -1,12 +1,8 @@
 import { render } from 'react-dom';
-import React, { Component } from 'react';
+import React from 'react';
 
-class MyComponent extends Component {
-    render() {
-        return (
-                <h1> Hello There! </h1>
-        );
-    }
-}
+const MyComponent = () => (
+  <h1>Hello there!</h1>
+);
 
-render(<MyComponent/>, document.getElementById('root'));
+render(<MyComponent />, document.getElementById('root'));
