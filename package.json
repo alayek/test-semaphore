@@ -17,12 +17,14 @@
     "eslint-plugin-jsx-a11y": "^5.1.0",
     "eslint-plugin-react": "^7.1.0",
     "html-webpack-plugin": "^2.29.0",
+    "husky": "^0.14.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "format": "eslint ."
+    "format": "eslint .",
+    "precommit": "sh scripts/precommit.sh"
   },
   "dependencies": {
     "react": "^15.6.1",
