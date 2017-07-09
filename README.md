@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/alayek/test-semaphore/branches/master/badge.svg)](https://semaphoreci.com/alayek/test-semaphore)
+
 # The React Codebase for Fertile Crescent Website [WIP]
 
 This repo is the MVP front-end for Fertile Crescent Website
